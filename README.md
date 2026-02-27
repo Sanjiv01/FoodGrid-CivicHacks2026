@@ -82,7 +82,7 @@ DEBUG=true
 
 ```bash
 # already exists — verify contents
-cat jigar-chatbot/chatbot/.env
+cat chatbot/.env
 ```
 
 Should contain:
@@ -226,8 +226,8 @@ Foodgrid/
 │   ├── PolicyMap Data/           # Raw CSV exports from PolicyMap
 │   └── tl_2023_25_tract/         # Census Bureau shapefiles (tract boundaries)
 │
-├── jigar-chatbot/
-│   └── chatbot/
+├── chatbot/
+│   └──
 │       ├── src/
 │       │   ├── server.js         # Express entry point (port 3001)
 │       │   ├── app.js            # CORS, helmet, morgan, /health, /chat routes
@@ -526,7 +526,7 @@ GeoID format: 11-digit FIPS code (`25025XXXXXX` for Suffolk County, MA).
 | `CORS_ALLOWED_ORIGINS` | No | `http://localhost:5173` | Frontend origin |
 | `DEBUG` | No | `false` | `true` in development |
 
-### Chatbot (`jigar-chatbot/chatbot/.env`)
+### Chatbot (`chatbot/.env`)
 
 | Variable | Required | Default | Description |
 |---|---|---|---|
