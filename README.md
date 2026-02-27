@@ -4,6 +4,11 @@ A full-stack civic tech platform that maps food access inequality across Boston'
 
 Built for EcoHack / Civic Hacks 2025.
 
+![WhatsApp Image 2026-02-22 at 10 21 45 AM](https://github.com/user-attachments/assets/e7d16f47-231e-48fa-9648-cbcaef52935b)
+
+![WhatsApp Image 2026-02-22 at 4 19 20 AM](https://github.com/user-attachments/assets/4d74a2a7-a679-4b14-b1eb-625d98069dff)
+
+
 ---
 
 ## What It Does
@@ -597,5 +602,5 @@ ollama serve              # Start Ollama if it isn't running
 ---
 
 ## Team
-
+Sanjiv, Jigar, Aum, Tarushi
 Built at EcoHack / Civic Hacks 2025 — a food access mapping tool for the City of Boston.
